@@ -1,0 +1,322 @@
+body{
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+text-align: center;
+padding-top: 30rem;
+font-size: xx-large;
+background-image: url("resist.png");
+background-repeat: no-repeat;
+background-size: cover;
+color: white;
+
+}
+.background{
+background-image: url("resist.png");
+    background-repeat: no-repeat;
+    margin-left: 0;
+    margin-right: 0;
+}
+/* Global styling */
+
+h1,
+h2,
+h4,
+h5,
+h6,
+p,
+button,
+.socials a {
+    font-family: 'Roboto', sans-serif;
+}
+
+h2 {
+    color: #A80E0E;
+    text-align: center;
+    font-size: 30px;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+   color: #005679
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    
+}
+
+button {
+    font-size: 20px;
+    width: 8.5rem;
+    height: 2.3rem;
+    background-color: #fda901;
+    border-radius: 25px;
+    border: none;
+}
+
+.p1 {
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+}
+
+.p2 {
+    padding-left: 10%;
+    font-size: 26px;
+}
+
+.p3 {
+    padding-left: 2rem;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.p4 {
+    font-family: 'Montserrat', sans-serif;
+    text-align: left;
+}
+
+.monsterrat {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+
+.roboto {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-weight: 100;
+}
+
+.white-text {
+    color: white;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+.rounded-corners {
+    border-radius: 25px;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.flex-container div {
+    width: 100%;
+    text-align: left;
+}
+
+.flex-container b,
+li {
+    font-family: 'Roboto', sans-serif;
+}
+
+.margin-top-1rem {
+    margin-top: 1rem;
+}
+
+button:hover {
+    background-color: #FFDD00;
+}
+
+.centered-table {
+    margin: 0 auto;
+}
+
+
+/* end of global styling */
+
+.whiteLogo {
+    width: 125px;
+    margin-top: 2rem;
+    position: fixed;
+    z-index: 10;
+}
+
+.nav-background {
+    background-image: url("images/library-wallpaper.jpg");
+    background-repeat: no-repeat;
+    margin-left: 0;
+    margin-right: 0;
+    padding-top: 8rem;
+    background-size: cover;
+}
+
+.top-nav {
+    z-index: 10;
+    font-family: "Montserrat", sans-serif;
+    display: inline;
+    margin-left: 20%;
+    position: fixed;
+}
+
+.top-nav a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    font-size: 1.5rem;
+    opacity: 61%;
+    background-color: #281923;
+    margin-top: 10px;
+    border-right: 1px solid black;
+}
+
+.top-nav a:hover {
+    margin-top: 0;
+    border-top: 10px #0a0908 solid;
+    border-right: 1px solid black;
+}
+
+.top-nav a.active {
+    opacity: 100%;
+    background-color: #005679;
+    border-right: none;
+}
+
+
+
+/* Top section text styling */
+
+h1.title {
+    margin-top: 6rem;
+    font-size: 50px;
+    color: #005679;
+}
+
+
+
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    width: 26rem;
+    border-radius: 25px;
+}
+
+.container {
+    padding: 2px 16px;
+}
+
+
+
+
+
+.padding-right {
+    padding-right: 3rem;
+}
+
+
+
+.menu a:hover,
+.bottom-links a:hover {
+    color: #a70e0f;
+    font-weight: bolder;
+}
+
+.aligned10,
+.bottom-nav {
+    padding-left: 10rem;
+    padding-right: 10rem;
+}
+
+.padding10-left-right {
+    padding-right: 10rem;
+    margin-left: 10rem;
+    margin-right: 10rem;
+}
+
+.margin-top-7rem {
+    padding-top: 6rem;
+}
+
+.navbar-box {
+    position: fixed;
+    background-attachment: fixed;
+    background-color: #281923;
+    background-size: cover;
+    opacity: 61%;
+    width: 100%;
+    height: 120px;
+
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+/* Create two equal columns that floats next to each other */
+
+.column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 300px;
+    /* Should be removed. Only for demonstration */
+}
+
+
+/* Clear floats after the columns */
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-column-gap: 30px;
+}
+
+.grid-2 {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-column-gap: 30px;
+}
+
+.item-1 {
+    background-color: white;
+    align-self: flex-start;
+}
+
+.item-2 {
+    background-color: white;
+    align-self: center;
+}
+
+.item-3 {
+    background-color: white;
+    align-self: left;
+}
+
+.item-4 {
+    background-color: white;
+    align-self: flex-start;
+    width: 400px;
+}
+
+
+.padding10-left{
+    padding-left: 10rem;
+}
+.hide{
+    display: none;
+}
+.flag{
+    color: red;
+}
+.padding30rem{
+    padding-top: 30rem;
+}
